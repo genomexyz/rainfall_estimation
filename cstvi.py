@@ -39,7 +39,7 @@ A = 202.12
 #resolution of our data is 0.05 degree, so luasan = 100 means the perimeter is 1 degree
 X = 119.8
 Y = -0.8
-luasan = 100
+luasan = 100	#please edit this variable value if you not satisfied with its default value
 
 #initialization of all container
 data = numpy.ones(256)*-99.0;								#container of calibrate data
