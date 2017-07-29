@@ -2,7 +2,6 @@
 
 import math
 import numpy
-import imread
 import re
 
 def read_pgm(filename, byteorder='>'):
