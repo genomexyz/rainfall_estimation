@@ -2,15 +2,10 @@
 
 import numpy as np
 from netCDF4 import Dataset
-from datetime import datetime
-from matplotlib import pyplot as plt
-from mpl_toolkits.basemap import Basemap
-import Image
-import matplotlib.patches as mpatches
-import re
 import os
 import errno
 import gdal
+import re
 
 #setting
 direktori = '/home/genomexyz/teswget'
